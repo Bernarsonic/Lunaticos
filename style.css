@@ -1,0 +1,610 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Georama', sans-serif;
+    overflow-x: hidden;
+    background: url(./imagenes/fondo.jpg);
+}
+
+.wrapper,
+.wrapper2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.vinculos{
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+
+.vinculos:hover{
+    color: blueviolet;
+    box-shadow: 0rem 0rem 7rem 1rem white;
+    transition: 750ms;
+}
+
+/* Astronautas*/
+
+.main {
+    display:flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.titulo {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.apolos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.apolo {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.titulos {
+    text-align: center;
+    color: black;
+    -webkit-text-stroke: 1px yellow;
+}
+
+.imagenes {
+    margin: 0 auto;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.imagenes2 {
+    margin: 0 auto;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.parrafos-unidos {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.trio {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.parrafos-der{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.parrafos-izq{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    height: 450px;
+}
+
+.logo{
+    justify-content: center;
+}
+
+.tierra {
+    height:1500px;
+}
+
+.planeta{
+    position: absolute;
+    margin-left: 70%;
+    top: 1rem;
+}
+
+.luna{
+    height: 400px;
+}
+
+/*cronologia*/
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px;
+}
+
+.formato-crono{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.zx{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.fecha{
+    -webkit-transform: rotate(-90deg);
+}
+
+
+.arriba{
+    margin-top: 55px;
+}
+
+.abajo{
+    margin-top: 320px;
+}
+
+.medio{
+    margin-top: 215px;
+}
+
+.nfecha{
+    -webkit-transform: rotate(90deg);
+}
+
+.omega{
+    display: flex;
+    padding: 1rem;
+}
+
+.ciel{
+    border-left: 1px white solid;
+    border-bottom: 1px white solid;
+}
+
+.laraya{
+    border-right: 1px white solid;
+    border-bottom: 1px white solid;
+}
+
+.zero{
+    width: 500px;
+}
+
+.button{
+    background-color: #C4C4C4;
+    padding: 3px;
+    width: 80px;
+}
+
+.datos{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0% auto;
+}
+
+.sniper{
+    display: flex;
+    flex-direction: column;
+}
+
+.star{
+    color: black;
+    -webkit-text-stroke: 1px yellow;
+}
+
+.gatillo{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.bala{
+    display: flex;
+    gap: 1rem;
+}
+
+.objetivo{
+    height: 250px;
+}
+
+.contenido{
+    padding: 10rem;
+    gap: 2rem;
+}
+
+.centrar {
+    text-align: center;
+}
+
+/*Fotos*/
+
+.coche{
+    margin: 0 auto;
+    height: 400px;
+    width: 650px;
+}
+
+.milenario{
+    display: flex;
+    justify-content: left;
+    margin-left: -622px;
+    margin-top: -300px;
+}
+
+.halcon{
+    height: 250px;
+    width: 300px;
+}
+
+.logo{
+    display: flex;
+}
+
+.lunatico{
+    height: 600px;
+    margin-bottom: -500px;
+}
+
+.corcho{
+    display: flex;
+    justify-content: right;
+    margin-left: 1586px;
+}
+
+.atmosfera{
+    margin-top: 100px;
+}
+
+.movil{
+    display: none;
+}
+
+
+
+/*Galeria*/
+
+
+.grid-en-grid {
+    display: flex;
+    flex-direction:column;
+    gap: 0.5rem;
+}
+
+.grid{
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.cabezera {
+    display: flex;
+    justify-content: center;
+}
+
+.separacion{
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.espacio{
+    background-image: url(./imagenes/fondo3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Galerias */
+
+.flex{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.fotos{
+    height: 250px;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.obama,
+.obama2 {
+    height: 250px;
+    width: 30%;
+}
+
+/*fotos*/
+
+.foto1{
+    background-image: url(./imagenes/apollo14\ bandera.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.foto2{
+    background-image: url(./imagenes/apollo14\ golf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.foto3{
+    background-image: url(./imagenes/apollo\ 14\ astro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.foto4{
+    background-image: url(./imagenes/Apolo\ 14.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.foto5{
+    background-image: url(./imagenes/apollo\ 15\ the\ rock.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.foto6{
+    background-image: url(./imagenes/Apollo_14.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.foto7{
+    background-image: url(./imagenes/apolo11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.foto8{
+    background-image: url(./imagenes/Apolo-11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.foto9{
+    background-image: url(./imagenes/apolo11\ bandera.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.foto10{
+    background-image: url(./imagenes/apolo11\ cuarentena.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.foto11{
+    background-image: url(./imagenes/apolo11\ saludo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.foto12{
+    background-image: url(./imagenes/apolo\ 11\ terminaljpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.foto13{
+    background-image: url(./imagenes/Apollo-12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.foto14{
+    background-image: url(./imagenes/Apolo\ 12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.foto15{
+    background-image: url(./imagenes/apollo\ 15\ the\ rock.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.foto16{
+    background-image: url(./imagenes/apolo12\ vista.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.foto17{
+    background-image: url(./imagenes/apolo\ 12\ bandera.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.foto18{
+    background-image: url(./imagenes/apollo-15.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.foto19{
+    background-image: url(./imagenes/Apolo\ 15.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.foto20{
+    background-image: url(./imagenes/senda\ arco\ iris.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.foto21{
+    background-image: url(./imagenes/mario-kart-8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.foto22{
+    background-image: url(./imagenes/apolo15-minecraft.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.foto23{
+    background-image: url(./imagenes/Apollo16.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.foto24{
+    background-image: url(./imagenes/Apolo\ 16.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.foto25{
+    background-image: url(./imagenes/apolo11\ saludo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.foto26{
+    background-image: url(./imagenes/casper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.foto27{
+    background-image: url(./imagenes/apolo15\ tercer\ astronauta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.foto28{
+    background-image: url(./imagenes/Apolo\ 17.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.foto29{
+    background-image: url(./imagenes/apollo17.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.foto30{
+    background-image: url(./imagenes/apolo17-modulo-lunar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.foto31{
+    background-image: url(./imagenes/apolo-17-astronauta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.foto32{
+    background-image: url(./imagenes/astronauta-selfi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}

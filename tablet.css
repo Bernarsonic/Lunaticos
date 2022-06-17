@@ -1,0 +1,546 @@
+/* Astronautas*/
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+@media (min-width:1024px) {
+    .apolo  {
+        width: 100%;
+    }
+
+    .trio{
+        display: flex;
+        flex-direction: row;
+        gap:2rem;
+    }
+
+    .trio p{
+        width: 400px;
+    }
+
+    .parrafos-der{
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 2rem;
+    }
+
+    .parrafos-izq{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
+}
+
+@media (max-width:1600px){
+    .luna{
+        display: none;
+    }
+}
+
+/*croonologia*/
+
+@media (min-width:1024px) {
+    
+    .header{
+        display: flex;
+        margin: 2rem auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .principal{
+        display: flex;
+        flex-direction: column;
+        margin: 0% auto;
+        gap: 2rem;
+    }
+    
+    .titulo{
+        display: flex;
+        margin: 0% auto;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .omega{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0%;
+    }
+
+    .ordenador{
+        display: none;
+    }
+
+    .movil{
+        flex-direction: column;
+    }
+
+    .zero{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .pato{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .ciel, .laraya{
+        border: 0px;
+    }
+
+    .contenido{
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .fecha{
+        -webkit-transform: rotate(0deg);
+        color: black;
+        -webkit-text-stroke: 1px yellow;
+    }
+
+    .nfecha{
+        -webkit-transform: rotate(0deg);
+        color: black;
+        -webkit-text-stroke: 1px yellow;
+    }
+
+    .datos{
+       margin: 0 5rem;
+    }
+
+    .zx{
+        gap: 0;
+    }
+
+    .ox{
+        display: none;
+    }
+
+    .milenario{
+        display: none;
+    }
+
+    .vegeta{
+        display: none;
+    }
+
+    .atmosfera{
+        display: none;
+    }
+
+    .lunatico{
+        height: 500px;
+        width: 650px;
+    }
+}
+
+@media (min-width:750px) {
+    .objetivo{
+        height: 150px;
+    }
+
+    .coche{
+        height: 350px;
+    }
+
+    .lunatico{
+        height: 200px;
+        width: 400px;
+    }
+
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .sniper{
+        gap: 2rem;
+    }
+
+    .vegeta, 
+    .milenario{
+        display: none;
+    }
+
+}
+
+@media (min-width:1600px) {
+
+    .contenedor{
+        gap: 0;
+    }
+
+    .ciel{
+        border-left: 1px white solid;
+        border-bottom: 1px white solid;
+    }
+
+    .laraya{
+        border-right: 1px white solid;
+        border-bottom: 1px white solid;
+    }
+
+    .ox{
+        display: flex;
+    }
+
+    .milenario{
+        display: flex;
+    }
+
+    .vegeta{
+        display: flex;
+    }
+
+    .atmosfera{
+        display: flex;
+    }
+    .fecha{
+        -webkit-transform: rotate(-90deg);
+        color: white;
+        -webkit-text-stroke: 0px yellow;
+    }
+
+    .nfecha{
+        -webkit-transform: rotate(90deg);
+        color: white;
+        -webkit-text-stroke: 0px yellow;
+        margin-bottom: 500px;
+        margin-top: 20px;
+    }
+
+    .omega{
+        display: flex;
+        flex-direction:row;
+        padding-left: 25px;
+    }
+
+    div.omega.ciel,
+    div.omega.ordenador{
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .movil{
+        display: none;
+    }
+
+    .datos{
+        margin: 0 200px;
+    }
+
+    .medio{
+        margin-top: 235px;
+    }
+
+    .abajo{
+        margin-top: 355px;
+    }
+
+    .lunatico{
+        height: 450px;
+        width: 800px;
+    }
+}
+
+@media (max-width:1024px) {
+    .header{
+        display: flex;
+        margin: 2rem auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .principal{
+        display: flex;
+        flex-direction: column;
+        margin: 0% auto;
+        gap: 2rem;
+    }
+    
+    .titulo{
+        display: flex;
+        margin: 0% auto;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .omega{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0%;
+    }
+
+    .ordenador{
+        display: none;
+    }
+
+    .movil{
+        flex-direction: column;
+    }
+
+    .zero{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .pato{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .ciel, .laraya{
+        border: 0px;
+    }
+
+    .contenido{
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .fecha{
+        -webkit-transform: rotate(0deg);
+        color: black;
+        -webkit-text-stroke: 1px yellow;
+    }
+
+    .nfecha{
+        -webkit-transform: rotate(0deg);
+        color: black;
+        -webkit-text-stroke: 1px yellow;
+    }
+
+    .objetivo{
+        height: 150px;
+    }
+
+    .datos{
+       margin: 0 5rem;
+    }
+
+    .zx{
+        gap: 0;
+    }
+
+    .ox{
+        display: none;
+    }
+
+    .milenario{
+        display: none;
+    }
+
+    .vegeta{
+        display: none;
+    }
+
+    .atmosfera{
+        display: none;
+    }
+
+    .lunatico{
+        height: 300px;
+        width: 500px;
+    }
+
+    .ordenador{
+        display: none;
+    }
+
+    .coche{
+        height: 200px;
+        width: 300px;
+    }
+}
+
+@media (max-width:605px){
+    
+    .lunatico{
+        display: block;
+        width: 80%;
+    }
+
+    .coche{
+        height: 150px;
+        width: 250px;
+    }
+
+    .objetivo{
+        margin: 0 auto;
+        height: 150px;
+    }
+
+    .bala{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .datos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:  0px;
+    }
+
+    .formato-crono{
+        justify-content: center;
+    }
+
+    .zero{
+        width: 100%;
+    }
+
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+}
+
+/*galeria*/
+
+@media(max-width:1540px){
+    .grid-en-grid{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .grid{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
+
+@media(max-width:750px){
+    .grid-en-grid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 6rem;
+    }
+}
+
+/*Paginas de galeria*/
+
+
+@media(min-width:0px){
+    
+    .wrapper2{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        }
+
+    .flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fotos{
+        height: 100%;
+    }
+
+    .header{
+        font-size: 15px; ;
+    } 
+
+    .obama {
+        height: 100%;
+        width: 50%;
+    }
+
+    .obama2{
+        height: 200px;
+        width: 80%;
+    }
+}
+
+@media(min-width:450px){
+    
+    .wrapper2{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        }
+
+    .flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fotos{
+        height: 100%;
+    }
+
+    .header{
+        font-size: 15px; ;
+    } 
+
+    .obama {
+        height: 500px;
+        width: 400px;
+    }
+
+    .obama2{
+        height: 500px;
+        width: 400px;
+    }
+
+    .flex{
+        flex-direction: column;
+    }
+
+    .tamaño_tablet{
+        display: flex;
+    }
+}
+
+@media(min-width:1200px){
+    .flex{
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+        flex-direction: row;
+    }
+    
+    .column{
+        flex-direction: column;
+    }
+    
+    .fotos{
+        height: 250px;
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 2rem;
+    }
+    
+    .obama,
+    .obama2 {
+        height: 250px;
+        width: 30%;
+    }
+}
